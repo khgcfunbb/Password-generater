@@ -1,14 +1,20 @@
-.container{
-    height: 55vh;
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    height: 60vh;
     width: 27vw;
-    background-color:#ade8f4 ;
+    background-color: #ade8f4;
     margin: auto;
     margin-top: 18vh;
     border-radius: 0.3rem;
-    border: 1px solid white;
+    border: 1px solid rgb(254, 230, 230);
 
 }
-.display{
+
+.display {
     box-sizing: border-box;
     height: 11%;
     width: 87%;
@@ -16,13 +22,14 @@
     border-radius: 5px;
     background-color: white;
     margin-left: 1.7vw;
-     margin-top: 3vh;
-   display: flex;
-   justify-content: space-between;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
     padding: 8px;
     align-items: center;
 }
-.display #copybtn{
+
+.display #copybtn {
     margin-right: -0.4em;
     outline: none;
     border: none;
@@ -33,30 +40,77 @@
     /* height: 0vh;
     width: 11%; */
 }
-.display #copybtn:active{
+
+.display #copybtn:active {
     background-color: rgba(211, 211, 211, 0.20);
 }
 
-#btn{
-    height:6vh;
+#btn {
+    height: 6vh;
     width: 14vw;
     font-size: 1.4vw;
+    font-family: serif;
     font-weight: bold;
     outline: none;
     border-radius: 4px;
     border: 1px solid grey;
-    margin-top: 30vh;
+    margin-top: 2vh;
     margin-left: 6vw;
     cursor: pointer;
 }
-#btn:active{
+
+#btn:active {
     opacity: 0.8;
 }
-#btn:hover{
+
+#btn:hover {
     transition: all 0.1s ease-in 0s;
-    transform: scale(1.01);01334040150007264
+    transform: scale(1.01);
+    /* 01334040150007264 */
 }
-.display p{
+
+.display p {
     font-weight: bolder;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.input-container {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+#ps {
+    display: inline;
+}
+
+input {}
+
+span {
+    height: 9%;
+    width: 7%;
+    /* background-color: white; */
+    color: black;
+    border: 1px solid lightgrey;
+    border-radius: 5%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    /* padding-left: %; */
+}
+
+.box {
+    width: 78%;
+    height: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-left: 10%;
+    margin-top: 3%;
+    /* box-sizing: border-box; */
+}
+
+.box input[type="checkbox"] {
+    margin-top: 8%;
 }
