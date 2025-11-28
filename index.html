@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passsword generator</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passsword generator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="queries.css">
+
 </head>
+
 <body>
   <div class="container">
-     <div class="display">
+    <div class="display">
       <p></p>
-           <button id="copybtn"><i class="fa-regular fa-copy"></i></button>
-             
-     </div>
-     <input type="range" min="1" max="15" value="8">
-     <span></span>
-     <button id="btn">
-     Get PASSWORD
-     </button>
+      <button id="copybtn"><i class="fa-regular fa-copy"></i></button>
+
+    </div>
+
+    <div class="input-container">
+      <input type="range" min="1" max="15" value="8">
+      <span></span>
+    </div>
+
+    <div class="box">
+
+      <label>
+        <input type="checkbox" checked id="a">INCLUDE (A-Z)</input> </label>
+      <label>
+        <input type="checkbox" checked id="b">INCLUDE (a-z)</input> </label>
+      <label>
+        <input type="checkbox" id="c">INCLUDE (123..)</input> </label>
+      <label>
+        <input type="checkbox" id="d">INCLUDE (~_^)</input> </label>
+
+
+    </div>
+    <div class="btn-box">
+      <button id="btn">
+        Get PASSWORD
+      </button>
+    </div>
   </div>
 
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
