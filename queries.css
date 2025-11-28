@@ -1,0 +1,70 @@
+@media (min-width:330px) and (max-width:500px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0px;
+        overflow: hidden;
+        border: none;
+    }
+
+    .display {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 3vh;
+        height: 6vh;
+        font-size: 3vh;
+        font-weight: light;
+        border-radius: 1vh;
+    }
+
+    #copybtn {
+        padding-right: 2vw;
+    }
+
+    .input-container {
+        display: flex;
+        align-items: center;
+    }
+
+    input[type="range"] {
+        width: 57vw;
+        height: 2vh;
+        
+    }
+
+    span {
+        font-size: 3vh;
+    }
+    .box{
+        margin-top: 28vh;
+        width: 100%;
+        padding-left: 22%;
+        height: max-content;
+        /* background-color: red; */
+    }
+     input[type="checkbox"]{
+        
+     
+     }
+     .btn-box{
+        width: 100vw;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        margin-top: 12vh;
+        /* background-color: blue; */
+     }
+     #btn{
+        width: 44vw;
+        border-radius: 2vw;
+        font-size: 5vw;
+        /* margin-top: 15vh; */
+     }
+}
