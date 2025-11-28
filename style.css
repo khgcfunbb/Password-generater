@@ -1,0 +1,62 @@
+.container{
+    height: 55vh;
+    width: 27vw;
+    background-color:#ade8f4 ;
+    margin: auto;
+    margin-top: 18vh;
+    border-radius: 0.3rem;
+    border: 1px solid white;
+
+}
+.display{
+    box-sizing: border-box;
+    height: 11%;
+    width: 87%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 1.7vw;
+     margin-top: 3vh;
+   display: flex;
+   justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+.display #copybtn{
+    margin-right: -0.4em;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    /* height: 0vh;
+    width: 11%; */
+}
+.display #copybtn:active{
+    background-color: rgba(211, 211, 211, 0.20);
+}
+
+#btn{
+    height:6vh;
+    width: 14vw;
+    font-size: 1.4vw;
+    font-weight: bold;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid grey;
+    margin-top: 30vh;
+    margin-left: 6vw;
+    cursor: pointer;
+}
+#btn:active{
+    opacity: 0.8;
+}
+#btn:hover{
+    transition: all 0.1s ease-in 0s;
+    transform: scale(1.01);01334040150007264
+}
+.display p{
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
